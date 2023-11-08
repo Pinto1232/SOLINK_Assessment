@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2017", // or a target that matches your Node.js version
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*", "tsconfig.json"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
