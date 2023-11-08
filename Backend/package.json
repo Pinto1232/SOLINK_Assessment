@@ -19,7 +19,9 @@
   "author": "Pinto Manuel",
   "license": "ISC",
   "dependencies": {
+    "apollo-server": "^3.12.1",
     "express": "^4.18.2",
+    "graphql": "^16.8.1",
     "pg": "^8.11.3",
     "typeorm": "^0.3.17"
   },
